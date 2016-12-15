@@ -1,0 +1,37 @@
+{
+  "name": "box-lunch",
+  "version": "1.0.0",
+  "description": "Forget your lunch? order food fast right from slack!",
+  "main": "index.js",
+  "bin": {
+    "norrisbot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js",
+    "test": "node_modules/.bin/xo data/jokesFetcher.js bin/bot.js index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlle/box-lunch.git"
+  },
+  "keywords": [
+    "Slack",
+    "Bot",
+    "Food",
+    "Delivery",
+    "Order"
+  ],
+  "author": "Charleston Malkemus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlle/box-lunch/issues"
+  },
+  "homepage": "https://github.com/charlle/box-lunch#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "progress": "^1.1.8",
+    "request": "^2.79.0",
+    "slackbots": "^0.5.3",
+    "sqlite3": "^3.1.8"
+  }
+}
