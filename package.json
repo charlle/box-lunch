@@ -4,7 +4,7 @@
   "description": "Forget your lunch? order food fast right from slack!",
   "main": "index.js",
   "bin": {
-    "norrisbot": "bin/bot.js"
+    "boxlunch": "bin/bot.js"
   },
   "scripts": {
     "start": "node bin/bot.js",

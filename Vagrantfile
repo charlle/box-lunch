@@ -4,11 +4,10 @@
 @author:  Charleston Malkemus
 @date:    November 2, 2016
 @app:     Box Lunch
-@descriptions:
-This is a basic Vagrant file for a virtualbox running Ubuntu 14.04.
-This is a 1GB 1CPU server, which will not take more than 40% of your local machines cpu.
-You have nodejs, npm installed.
-
+@descriptions:	NodeBox 
+Installed:	Nodejs, npm
+OS: 		Ubuntu 14.04.
+Specs: 		1GB 1CPU <  40% cpu
 =end
 
 
@@ -45,6 +44,8 @@ Vagrant.configure(2) do |config|
       # NODEJS
       # sudo curl -sL https://deb.nodesource.com/setup_4.x | sudo bash -
       # sudo apt-get -y install nodejs npm nodejs-legacy 
+      # sudo npm install --global javascripting
+      # /usr/lib/node_modules/javascripting
 
     SHELL
 
